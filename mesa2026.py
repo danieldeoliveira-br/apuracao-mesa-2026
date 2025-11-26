@@ -1,6 +1,6 @@
 import streamlit as st
-    import pandas as pd
-    from datetime import datetime, date
+import pandas as pd
+from datetime import datetime, date
 
     # --- CONFIGURAÇÃO DA PÁGINA ---
     st.set_page_config(
@@ -265,3 +265,4 @@ import streamlit as st
             file_name=f"Ata_Mesa2026_{datetime.now().strftime('%Y%m%d_%H%M')}.txt",
             mime="text/plain"
         )
+
